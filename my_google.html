@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my_google</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: orangered;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        section.content{
+            background-color: orangered;
+        }
+        form{
+            background-color: orangered;
+            width: 60%;
+            min-width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            size-adjust: 500px;
+        }
+
+        h1{
+            /* background-color: rgb(23, 133, 58); */
+            text-align: center;
+            font-size: 50pt;
+            margin-bottom: 20px;
+            margin-top: 175px;
+        }
+        form span.search-icon{
+            width: 30px;
+            display: inline-block;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            float: left;
+            
+        }
+        form input.search-entry{
+            width: 80%;
+            height: 25px;
+            border: none;
+            margin-right: 65px;
+        }
+        form > input.search-button{
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            border: none;
+        }
+        div.entry-group{
+            display: inline-block;
+            width: calc(46px + 70%);
+            height: 36px;
+            line-height: 30px;
+            border: 2px solid gray;
+            border-radius: 18px;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <section class="content">
+        <h1>
+            <span style="color: green;">C</span>luck<span style="color: orange;">C</span>luck<span style="color: red;">Go</span>
+        </h1>
+        <form action="https://www.google.com">
+            <div class="entry-group">
+                <span class="search-icon">🐔</span>
+                <input class="search-entry" type="text" name="q" id="" placeholder="Chicken">
+            </div>
+            <input class="search-button" type="submit" value="🍗">
+        </form>
+
+    </section>
+    <footer>
+
+    </footer>
+
+</body>
+</html>
